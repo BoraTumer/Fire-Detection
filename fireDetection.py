@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-video = cv2.VideoCapture("no_fire.mov")
+video = cv2.VideoCapture("fire.mov")
 
 while True:
     ret, frame = video.read()
